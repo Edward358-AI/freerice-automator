@@ -1,1 +1,1 @@
-javascript:var answer = setInterval(() => {   z = document.getElementsByClassName("content")[0].children x = z[0].innerText.split(" x ") x = parseInt(x[0]) * parseInt(x[1]) for (let i = 1; i < z.length; i++) { if (z[i].innerText == x) z[i].click() } }, 500)
+javascript:var answer = setInterval(() => {   z = document.getElementsByClassName("content")[0].children; x = z[0].innerText.split(" x "); x = parseInt(x[0]) * parseInt(x[1]); for (let i = 1; i < z.length; i++) { if (z[i].innerText == x) z[i].click(); } }, 500);
